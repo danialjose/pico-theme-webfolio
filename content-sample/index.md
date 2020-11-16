@@ -1,1 +1,0 @@
-/var/www/html/pico/content/index.md

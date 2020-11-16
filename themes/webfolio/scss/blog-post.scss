@@ -1,0 +1,15 @@
+.blog-post {
+    padding: 2rem 1rem;
+}
+
+.blog-post__header__date {
+    font-size: $font-size-xs;
+}
+
+.blog-post__divider {
+    margin: 1rem 0 2rem 0;
+}
+
+.blog-post__content img {
+    max-width: 100%;
+}

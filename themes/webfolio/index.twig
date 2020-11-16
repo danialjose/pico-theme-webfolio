@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Home | {{site_title }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="GravCMS" />
+    <meta name="description" content="Jason Cox&#039;s personal website" />
+
+                            <link rel="icon" type="image/png" href="/user/images/webfolio/favicon.png" />
+        <link rel="canonical" href="{{ current_page.url }}" />
+
+    <style>
+    :root {
+        --webfolio-color-bg: #ffffff;
+        --webfolio-color-bg-alt: #fafafa;
+        --webfolio-color-bg-blockquote: #eaf2fd;
+        --webfolio-color-bg-code: #f2f2f2;
+        --webfolio-color-bg-hover: #d8d8d8;
+        --webfolio-color-text: #444444;
+        --webfolio-color-text-light: #606060;
+        --webfolio-color-text-dark: #393939;
+        --webfolio-color-text-hover: #393939;
+        --webfolio-color-accent: #3085EE;
+        --webfolio-color-accent-hover: #126ee0;
+        --webfolio-color-required: #E85600;
+        --webfolio-color-border: #e5e5e5;
+        --webfolio-color-border-blockquote: #5789c7;
+    }
+</style>
+
+
+
+    <link href="{{ theme_url }}/css/normalize.css" type="text/css" rel="stylesheet">
+<link href="{{ theme_url }}/css-compiled/theme.min.css" type="text/css" rel="stylesheet">
+<link href="{{ theme_url }}/css/custom.css" type="text/css" rel="stylesheet">
+###<link href="/user/css/webfolio.css" type="text/css" rel="stylesheet">
+###<link href="/user/plugins/markdown-notices/assets/notices.css" type="text/css" rel="stylesheet">
+###<link href="/user/plugins/login/css/login.css" type="text/css" rel="stylesheet">
+###<link href="/user/plugins/form/assets/form-styles.css" type="text/css" rel="stylesheet">
+
+###<script src="/system/assets/jquery/jquery-2.x.min.js"></script>
+<script src="{{ theme_url }}/js/theme.js"></script>
+<script src="{{ theme_url }}/js/singlepagenav.min.js"></script>
+
+</head>
+<body id="top" class="">
+
+    <header id="header" class="header">
+        <div class="header__content">
+            <div class="header__logo">
+
+
+
+<a href="/">
+  <img alt="{{ site_title }}" class="logo__img" src="{{ theme_url }}/img/logo.svg" />
+</a>
+            </div>
+
+            <nav class="nav--main__nav">
+
+<ul class="navigation">
+                        <li>
+                                                  <a class="active " href="/">Home</a>
+
+
+                  <button class="nav__dropdown">
+            <i class="nav__dropdown__icon fas fa-chevron-down"></i>
+          </button>
+
+                  <ul>
+                              <li>
+                                                            <a class=" internal" href="/#intro">Intro</a>
+
+
+
+                      </li>
+                      <li>
+                                                            <a class=" internal" href="/#about">About</a>
+
+
+
+                      </li>
+                      <li>
+                                                            <a class=" internal" href="/#projects">Projects</a>
+
+
+
+                      </li>
+                      <li>
+                                                            <a class=" internal" href="/#contact">Contact</a>
+
+
+
+                      </li>
+
+          </ul>
+                      </li>
+                      <li>
+                                                  <a class=" " href="/blog">Blog</a>
+
+
+
+                      </li>
+
+
+
+</ul>
+                </nav>
+        </div>
+    </header>
+
+    <section id="body">
+                    <div id="intro"></div>
+        <section class="section modular bg-alt">
+    <section class="container">
+            <div class="intro">
+                    <img alt="picture of &nbsp;{{site_title }}" class="intro__img " src="{{ pages.index.meta.profile }}" />
+
+        <div class="intro__content  with-img  ">
+            <h2>Hi, I'm &nbsp;{{ site_title }}!</h2>
+<h4><em>{{ pages.index.meta.description }}</em></h4>
+
+            <div class="intro__links">
+
+                                              <a href="mailto:{{ pages.index.meta.email }}" target="_blank">
+      <i class="fas fa-envelope"></i>
+  </a>
+
+                                              <a href="{{ pages.index.meta.github }}" target="_blank">
+      <i class="fab fa-github"></i>
+  </a>
+
+                                              <a href="{{ pages.index.meta.linkedin }}" target="_blank">
+      <i class="fab fa-linkedin-in"></i>
+  </a>
+
+                                                                </div>
+        </div>
+    </div>
+    </section>
+</section>
+
+            <div id="about"></div>
+        <section class="section modular ">
+    <section class="container">
+            <div class="about">
+        <h2>About Me</h2>
+          <p>{{ pages.index.meta.about }}</p>
+
+        <div class="about__details">
+                            <div class="about__detail">
+                    <div class="about__detail__icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>Quality Code</h4>
+                    <div>I care about more than just correctness; my code isn't ready to go until it's organized, optimized, and documented.</div>
+                </div>
+                            <div class="about__detail">
+                    <div class="about__detail__icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h4>Clear Communication</h4>
+                    <div>I've refined my ability to communicate with clients and developers thanks to my exerience working with teams and my time studying business management.</div>
+                </div>
+                            <div class="about__detail">
+                    <div class="about__detail__icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Open Source</h4>
+                    <div>I'm a firm believer that collaboration and sharing produce the best results, including in software, so I release my code as open source whenever possible.</div>
+                </div>
+                    </div>
+    </div>
+    </section>
+</section>
+
+            <div id="projects"></div>
+        <section class="section modular bg-alt">
+    <section class="container">
+            <div class="projects projects-2">
+        <h2>Projects</h2>
+<p>Get a feel for my work by checking out some of my recent projects below.</p>
+
+        <div class="projects__cards">
+
+                <script>
+                    addToProjectPage(2, 0,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="/projects/os345" target="_blank">' +
+                                '<img alt="os345" class="projects__card__img" src="/user/pages/01.home/_projects/os345.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>os345</h4>' +
+                                    '<div>OS with virtual memory, fair-share scheduling, and a FAT filesystem</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 0,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="/projects/home-server" target="_blank">' +
+                                '<img alt="Home Server" class="projects__card__img" src="/user/pages/01.home/_projects/home-server.jpg" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>Home Server</h4>' +
+                                    '<div>Self-hosted cloud services using Docker and ZFS on Debian Linux</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 0,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="/projects/http-proxy" target="_blank">' +
+                                '<img alt="HTTP Proxy" class="projects__card__img" src="/user/pages/01.home/_projects/http-proxy.jpg" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>HTTP Proxy</h4>' +
+                                    '<div>Proxy for GET requests written in C using threads and I/O multiplexing</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 0,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="jsonbody" class="projects__card__img" src="/user/pages/01.home/_projects/jsonbody.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>jsonbody</h4>' +
+                                    '<div>Golang middleware for receiving, validating, and sending JSON</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 0,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="Webfolio Theme" class="projects__card__img" src="/user/pages/01.home/_projects/webfolio.jpg" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>Webfolio Theme</h4>' +
+                                    '<div>Theme (powers this site!) for Grav CMS using HTML, Sass, JS, Twig</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    '<div class="projects__item projects__show-more--0">' +
+                                '<button onClick="showProjectPage(2, 1)">' +
+                                    'Show more' +
+                                '</button>' +
+                            '</div>'
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 1,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="/projects/tiny-shell" target="_blank">' +
+                                '<img alt="Tiny Shell" class="projects__card__img" src="/user/pages/01.home/_projects/tiny-shell.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>Tiny Shell</h4>' +
+                                    '<div>Bash-style shell written in C with I/O redirection, job control, and more</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 1,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="/projects/dns-resolver" target="_blank">' +
+                                '<img alt="DNS Resolver" class="projects__card__img" src="/user/pages/01.home/_projects/dns-resolver.jpg" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>DNS Resolver</h4>' +
+                                    '<div>Basic DNS stub resolver written in C</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 1,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="restic-rclone" class="projects__card__img" src="/user/pages/01.home/_projects/restic-rclone.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>restic-rclone</h4>' +
+                                    '<div>Docker image to run scheduled backups using restic and rclone</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 1,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="topdf" class="projects__card__img" src="/user/pages/01.home/_projects/topdf.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>topdf</h4>' +
+                                    '<div>Bash script wrapper for pandoc to easily convert files to PDF</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 1,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="arch-install" class="projects__card__img" src="/user/pages/01.home/_projects/arch-install.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>arch-install</h4>' +
+                                    '<div>Bash scripts to install and setup Arch Linux</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    '<div class="projects__item projects__show-more--1">' +
+                                '<button onClick="showProjectPage(2, 2)">' +
+                                    'Show more' +
+                                '</button>' +
+                            '</div>'
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 2,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="Family Map" class="projects__card__img" src="/user/pages/01.home/_projects/family-map.jpg" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>Family Map</h4>' +
+                                    '<div>Android app with a Java server that maps geneological data</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+
+                <script>
+                    addToProjectPage(2, 2,
+                        '<div class="projects__item projects__card">' +
+                            '<a href="#" target="_blank">' +
+                                '<img alt="Wymount Website" class="projects__card__img" src="/user/pages/01.home/_projects/wymount-community-site.png" />' +
+                                '<div class="projects__card__txt">' +
+                                    '<h4>Wymount Website</h4>' +
+                                    '<div>Community website built from scratch with HTML, CSS, JS</div>' +
+                                '</div>' +
+                            '</a>' +
+                        '</div>' +
+
+                                                    ''
+                                            );
+                </script>
+                    </div>
+        <script>
+            showProjectPage(2, 0);
+        </script>
+    </div>
+    </section>
+</section>
+
+            <div id="contact"></div>
+        <section class="section modular ">
+    <section class="container">
+            <div class="contact">
+        <div>
+            <h2>Get In Touch</h2>
+<p>Whether you have questions about any of my projects, need help with one of your own, or just want to chat, feel free to reach out via email or using the form below. I'll do my best to get back to you, and I'll never share or sell your personal information.</p>
+<p>Please <em>don't</em> contact me with advertisements, offers to optimize my site, etc. I'm not interested.</p>
+        </div>
+
+                    <a href="mailto:{{ pages.index.meta.email }}" target="_blank">
+                <button class="contact__btn">
+                                            <div class="contact__btn__icon"><i class="fas fa-envelope"></i></div>
+                                                                <div class="contact__btn__txt  with-icon ">
+                            {{ pages.index.meta.email }}
+                        </div>
+                                    </button>
+            </a>
+
+                    <div class="contact__divider"></div>
+
+                    <div class="contact__form">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form
+        name="contact-form"
+    action="/#contact-form"
+    method="POST"
+    id="contact-form"              class=" ">
+
+
+                                  <div class="form-field ">
+            <div class="form-label"><label class="inline" >Name              <span class="required">*</span></label>
+      </div>
+        <div class="form-data"
+          data-grav-field="text"
+  data-grav-disabled=""
+  data-grav-default="null"
+    >
+                        <div class="form-input-wrapper ">
+                        <input
+              name="data[name]"
+              value=""
+                  type="text"
+                  class=" "
+        placeholder="Enter&#x20;your&#x20;name"        autocomplete="on"          required="required"
+
+
+            />
+                                      </div>
+                        </div>
+  </div>
+
+                                  <div class="form-field ">
+            <div class="form-label"><label class="inline" >Email              <span class="required">*</span></label>
+      </div>
+        <div class="form-data"
+          data-grav-field="email"
+  data-grav-disabled=""
+  data-grav-default="null"
+    >
+                        <div class="form-input-wrapper ">
+                        <input
+              name="data[email]"
+              value=""
+                  type="email"
+          class=" "
+        placeholder="Enter&#x20;your&#x20;email&#x20;address"        autocomplete="on"          required="required"
+
+
+            />
+                                  </div>
+                        </div>
+  </div>
+
+                                  <div class="form-field ">
+            <div class="form-label"><label class="inline" >Message              <span class="required">*</span></label>
+      </div>
+        <div class="form-data"
+          data-grav-field="textarea"
+  data-grav-disabled=""
+  data-grav-default="null"
+    >
+                  <div class="form-textarea-wrapper  ">
+                <textarea
+                        name="data[msg]"
+                                        class="  "
+                                                                placeholder="Enter your message"                                                                                                required="required"                                                                                                                                        ></textarea>
+                            </div>
+                </div>
+  </div>
+
+                                  <div class="form-field ">
+            <div class="form-label"><label class="inline" ></label>
+      </div>
+        <div class="form-data"
+          data-grav-field="checkbox"
+  data-grav-disabled=""
+  data-grav-default="null"
+    >
+                      <div class="form-input-wrapper  ">
+        <input
+                        name="data[no-ads]"
+            value="1"
+            type="checkbox"
+
+                                        id="no-ads"
+                class=" "
+                                                                                required="required"                                        />
+        <label style="display:inline;" class="inline" for="no-ads">
+                            This message is not an advertisement, offer to optimize Jason&#039;s site, etc.
+                        <span class="required">*</span>
+        </label>
+    </div>
+                </div>
+  </div>
+
+
+    <input type="hidden" name="__form-name__" value="contact-form" />
+            <input type="hidden" name="__unique_form_id__" value="2vrbrkdbse495lgmv3ho" />
+    <input type="hidden" name="form-nonce" value="1abc8a0d0758b72c1a90818e190b0b09" />
+
+
+            <div class="buttons">
+
+
+
+
+
+  <button
+                                                                  type="submit"
+                                  class="button "
+                  >Send Message</button>
+
+
+        </div>
+
+  </form>
+
+            </div>
+            </div>
+    </section>
+</section>
+
+        </section>
+
+
+<footer class="footer">
+        <span class="footer__links">
+                          <a href="mailto:{{ pages.index.meta.email }}" target="_blank">
+      <i class="fas fa-envelope"></i>
+  </a>
+
+                      <a href="{{ pages.index.meta.github }}" " target="_blank">
+      <i class="fab fa-github"></i>
+  </a>
+
+                      <a href="{{ pages.index.meta.linkedin }}" target="_blank">
+      <i class="fab fa-linkedin-in"></i>
+  </a>
+
+
+                    |
+                </span>
+        <span class="footer__credit">
+          Made with <a href="https://github.com/danialjose/pico-theme-webfolio" target="_blank">Webfolio</a> on <a href="http://picocms.org" target="_blank">Pico</a>
+    </span>
+    </footer>
+
+<button class="nav--mobile__toggle" id="nav-mobile-toggle">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+</button>
+
+<div class="nav--mobile__overlay" id="nav-mobile-overlay">
+    <div class="nav--mobile__overlay__logo">
+
+
+
+<a href="/">
+  <img alt="Jason Cox" class="logo__img" src="/user/images/webfolio/logo-mobile.png" />
+</a>
+    </div>
+    <nav class="nav--mobile__nav">
+
+<ul class="navigation">
+                        <li>
+                                                  <a class="active " href="/">Home</a>
+
+
+                  <button class="nav__dropdown">
+            <i class="nav__dropdown__icon fas fa-chevron-down"></i>
+          </button>
+
+                  <ul>
+                              <li>
+                                                            <a class=" internal" href="/#intro">Intro</a>
+
+
+
+                      </li>
+                      <li>
+                                                            <a class=" internal" href="/#about">About</a>
+
+
+
+                      </li>
+                      <li>
+                                                            <a class=" internal" href="/#projects">Projects</a>
+
+
+
+                      </li>
+                      <li>
+                                                            <a class=" internal" href="/#contact">Contact</a>
+
+
+
+                      </li>
+
+          </ul>
+                      </li>
+                      <li>
+                                                  <a class=" " href="/blog">Blog</a>
+
+
+
+                      </li>
+
+
+
+</ul>
+        </nav>
+</div>
+
+        <script>
+window.GravForm = window.GravForm || {};
+    window.GravForm.config = {
+        current_url: '/',
+        base_url_relative: '',
+        param_sep: ':',
+        form_nonce: '1abc8a0d0758b72c1a90818e190b0b09',
+        session_timeout: 1800
+    };
+    window.GravForm.translations = Object.assign({}, window.GravForm.translations || {}, { PLUGIN_FORM: {} });
+</script>
+
+
+            <script>
+        // singlePageNav initialization & configuration
+        $('ul.navigation').singlePageNav({
+            offset: $('#header').outerHeight(),
+            filter: '.internal',
+            updateHash: false,
+            currentClass: 'active'
+        });
+        </script>
+
+</body>
+</html>
